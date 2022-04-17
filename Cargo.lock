@@ -3641,6 +3641,7 @@ dependencies = [
  "pallet-aura",
  "pallet-balances",
  "pallet-grandpa",
+ "pallet-letters",
  "pallet-randomness-collective-flip",
  "pallet-sudo",
  "pallet-template",
@@ -3919,6 +3920,24 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
+ "sp-std",
+]
+
+[[package]]
+name = "pallet-letters"
+version = "0.1.0"
+source = "git+https://github.com/slonigiraf/recommendation-letter.git?rev=9bfc5ead6213b99568b21cbce25cba2a04f50d57#9bfc5ead6213b99568b21cbce25cba2a04f50d57"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "rand_chacha 0.2.2",
+ "scale-info",
+ "serde",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
  "sp-std",
 ]
 

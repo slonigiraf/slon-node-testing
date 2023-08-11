@@ -39,7 +39,8 @@ sp-std = { version = "4.0.0-dev", default-features = false, git = "https://githu
 sp-transaction-pool = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
 sp-version = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
 
-pallet-letters = { default-features = false, git = 'https://github.com/slonigiraf/recommendation-letter.git', rev = "a20948e22866406cd75ba4ba9f30d2a7bc7f38f4"}
+pallet-letters = { default-features = false, git = 'https://github.com/slonigiraf/recommendation-letter.git', rev = "46366dc096cea56613882b5b13a961e9b68e0341"}
+pallet-laws = { default-features = false, git = 'https://github.com/slonigiraf/law.git', rev = "90e0b9f627698a2057ffbcaf5bd487006c65502b"}
 
 # Used for the node template's RPCs
 frame-system-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
@@ -86,6 +87,7 @@ std = [
 	"sp-transaction-pool/std",
 	"sp-version/std",
 	"pallet-letters/std",
+	"pallet-laws/std",
 ]
 runtime-benchmarks = [
 	"frame-benchmarking/runtime-benchmarks",
@@ -98,4 +100,5 @@ runtime-benchmarks = [
 	"pallet-timestamp/runtime-benchmarks",
 	"sp-runtime/runtime-benchmarks",
 	"pallet-letters/runtime-benchmarks",
+	"pallet-laws/runtime-benchmarks",
 ]

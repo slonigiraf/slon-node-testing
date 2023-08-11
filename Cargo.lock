@@ -3641,6 +3641,7 @@ dependencies = [
  "pallet-aura",
  "pallet-balances",
  "pallet-grandpa",
+ "pallet-laws",
  "pallet-letters",
  "pallet-randomness-collective-flip",
  "pallet-sudo",
@@ -3924,9 +3925,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "pallet-laws"
+version = "0.1.0"
+source = "git+https://github.com/slonigiraf/law.git?rev=90e0b9f627698a2057ffbcaf5bd487006c65502b#90e0b9f627698a2057ffbcaf5bd487006c65502b"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "rand_chacha 0.2.2",
+ "scale-info",
+ "serde",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
 name = "pallet-letters"
 version = "0.1.0"
-source = "git+https://github.com/slonigiraf/recommendation-letter.git?rev=a20948e22866406cd75ba4ba9f30d2a7bc7f38f4#a20948e22866406cd75ba4ba9f30d2a7bc7f38f4"
+source = "git+https://github.com/slonigiraf/recommendation-letter.git?rev=46366dc096cea56613882b5b13a961e9b68e0341#46366dc096cea56613882b5b13a961e9b68e0341"
 dependencies = [
  "frame-benchmarking",
  "frame-support",

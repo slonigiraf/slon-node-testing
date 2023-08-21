@@ -39,8 +39,8 @@ sp-std = { version = "4.0.0-dev", default-features = false, git = "https://githu
 sp-transaction-pool = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
 sp-version = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
 
-pallet-letters = { default-features = false, git = 'https://github.com/slonigiraf/recommendation-letter.git', rev = "46366dc096cea56613882b5b13a961e9b68e0341"}
-pallet-laws = { default-features = false, git = 'https://github.com/slonigiraf/law.git', rev = "90e0b9f627698a2057ffbcaf5bd487006c65502b"}
+pallet-letters = { default-features = false, git = 'https://github.com/slonigiraf/recommendation-letter.git', rev = "9558c7c7050703133af2e7833915d33769f9a5b6"}
+pallet-laws = { default-features = false, git = 'https://github.com/slonigiraf/law.git', rev = "32322ca783385318de8b93647b502c94a8e85fb5"}
 
 # Used for the node template's RPCs
 frame-system-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }

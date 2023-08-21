@@ -275,7 +275,6 @@ impl pallet_sudo::Config for Runtime {
 parameter_types! {
 	pub const DefaultDifficulty: u32 = 100000;
 	pub const LettersPerChunk: u32 = 1000;//Don't change this
-	pub const TheParaId: u32 = 1;
 }
 
 impl pallet_letters::Config for Runtime {
@@ -285,7 +284,6 @@ impl pallet_letters::Config for Runtime {
 	type WeightInfo = pallet_letters::weights::SubstrateWeight<Runtime>;
 	type DefaultDifficulty = DefaultDifficulty;
 	type LettersPerChunk = LettersPerChunk;
-	type TheParaId = TheParaId;
 }
 
 impl pallet_laws::Config for Runtime {

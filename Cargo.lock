@@ -3927,7 +3927,7 @@ dependencies = [
 [[package]]
 name = "pallet-laws"
 version = "0.1.0"
-source = "git+https://github.com/slonigiraf/law.git?rev=90e0b9f627698a2057ffbcaf5bd487006c65502b#90e0b9f627698a2057ffbcaf5bd487006c65502b"
+source = "git+https://github.com/slonigiraf/law.git?rev=32322ca783385318de8b93647b502c94a8e85fb5#32322ca783385318de8b93647b502c94a8e85fb5"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -3945,7 +3945,7 @@ dependencies = [
 [[package]]
 name = "pallet-letters"
 version = "0.1.0"
-source = "git+https://github.com/slonigiraf/recommendation-letter.git?rev=46366dc096cea56613882b5b13a961e9b68e0341#46366dc096cea56613882b5b13a961e9b68e0341"
+source = "git+https://github.com/slonigiraf/recommendation-letter.git?rev=9558c7c7050703133af2e7833915d33769f9a5b6#9558c7c7050703133af2e7833915d33769f9a5b6"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
